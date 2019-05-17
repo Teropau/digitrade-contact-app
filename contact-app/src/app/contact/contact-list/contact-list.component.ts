@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Contact} from '../contact';
 
 @Component({
   selector: 'app-contact-list',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-list.component.css']
 })
 export class ContactListComponent implements OnInit {
-
-  constructor() { }
+  contacts: Contact[];
+  constructor() {
+    this.contacts = [];
+  }
 
   ngOnInit() {
+    this.contacts.push(new Contact('666', 'Aku', 'Ankka'));
+    this.contacts.push(new Contact('444', 'Roope', 'Ankka'));
+    this.contacts.push(new Contact('333', 'Hannu', 'Hanhi'));
+    console.log(this.contacts);
   }
 
 }

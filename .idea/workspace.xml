@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="138781e7-f262-4ba7-98a2-1161ace79aaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-app/src/app/contact/contact-list/contact-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-app/src/app/contact/contact-list/contact-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-app/src/app/contact/contact-list/contact-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/contact-app/src/app/contact/contact-list/contact-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-app/src/app/contact/contact.spec.ts" beforeDir="false" />
-    </list>
+    <list default="true" id="138781e7-f262-4ba7-98a2-1161ace79aaa" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact-app/src/app/contact/contact-list/contact-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="340">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -105,55 +100,6 @@
               <item name="digitrade-contact-app" type="462c0819:PsiDirectoryNode" />
               <item name="contact-app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="digitrade-contact-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="digitrade-contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="digitrade-contact-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="digitrade-contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="digitrade-contact-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="digitrade-contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="digitrade-contact-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="digitrade-contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="digitrade-contact-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="digitrade-contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-list" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-list-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="digitrade-contact-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="digitrade-contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -165,7 +111,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../jsonsever" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -205,16 +151,15 @@
       <workItem from="1558006585330" duration="133000" />
       <workItem from="1558073491761" duration="1132000" />
       <workItem from="1558074999791" duration="9012000" />
-      <workItem from="1558333877274" duration="5218000" />
+      <workItem from="1558333877274" duration="6878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19916000" />
+    <option name="totallyTimeSpent" value="21576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25759578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -344,8 +289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact-app/src/app/contact/contact-list/contact-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="340">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>

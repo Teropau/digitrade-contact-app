@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Contact} from '../contact';
+import {ContactService} from '../services/contact.service';
 
 @Component({
   selector: 'dtca-contact-list',
@@ -8,17 +9,18 @@ import {Contact} from '../contact';
 })
 export class ContactListComponent implements OnInit {
   contacts: Contact[];
-  constructor() {
+  selectedContactName: string;
+  constructor(private contactService: ContactService) {
     this.contacts = [];
+    this.selectedContactName = '';
   }
 onContactSelected(contact: Contact): void {
     console.log(contact);
+    this.selectedContactName = contact.firstName + ' ' + contact.lastName;
     alert(contact.firstName);
 }
   ngOnInit() {
-    this.contacts.push(new Contact('666', 'Aku', 'Ankka'));
-    this.contacts.push(new Contact('444', 'Roope', 'Ankka'));
-    this.contacts.push(new Contact('333', 'Hannu', 'Hanhi'));
+    this.contacts = this.contactService.get();
     console.log(this.contacts);
   }
 

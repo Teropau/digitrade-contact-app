@@ -1,3 +1,55 @@
-<p>
-  contact-detail works!
-</p>
+<mat-card class >
+  <div fxLaoyut="row" fxLayoutAlign="center start">
+    <div fxLayout="column" class="width-detail">
+      <mat-form-field>
+        <input matInput [(ngModel)]="contact.firstName"
+               type="text"
+               required maxlength="12"
+               placeholder="first name">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="contact.lastName"
+               type="text"
+               required
+               placeholder="last name">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="contact.phone"
+               type="text"
+               required
+               placeholder="phone">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="contact.email"
+               type="text"
+               required
+               placeholder="Email">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="contact.address.street"
+               type="text"
+               required
+               placeholder="street address">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="contact.address.postalCode"
+               type="text"
+               required
+               placeholder="postal code">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput [(ngModel)]="contact.address.city"
+               type="text"
+               required
+               placeholder="city">
+      </mat-form-field>
+
+    </div>
+  </div>
+</mat-card>

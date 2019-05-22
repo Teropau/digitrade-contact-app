@@ -1,9 +1,11 @@
+import {ContactHttpService} from './contact-http.service';
+
 export class Contact {
   firstName: string;
   lastName: string;
   phone: string;
   email: string;
-  address: IAddress;
+  address: any[];
 
 
   constructor(firstName?: string, lastName?: string, phone?: string, email?: string, address?: IAddress) {
@@ -11,7 +13,7 @@ export class Contact {
     this.lastName = lastName;
     this.phone = phone;
     this.email = email;
-    this.address = address;
+    this.address = [];
   }
 }
 
